@@ -1,0 +1,206 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  background-color: #F2F2F2;
+}
+h1{
+  margin: 100px auto 0 auto;
+  font-size: 5.25rem;
+  color: #11698e;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  padding-bottom: 12px;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #11698e;
+  margin-top: 0;
+  font-family: 'Yusei Magic', sans-serif;
+}
+h4 {
+  color: #19456b;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none none;
+  background-color: #F2F2F2;
+  border-width: 7px;
+  border-color: #3d3d3d;
+  width: 10%;
+  margin: 100px auto 100px auto;
+}
+
+/* Navbar */
+
+.navbar {
+  font-weight: 500;
+  position: absolute;
+  width: 100%;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  z-index: 9999;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-size: 17px;
+  padding-left: 25px;
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    background-color: #eaf6f6;
+  }
+}
+
+/* Home Page */
+
+.top-container {
+  background-color: #e7d9ea;
+  position: relative;
+  padding-top: 50px;
+  background-size: cover;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.btn {
+  font-size: 400;
+  padding: 12px 24px 12px 24px;
+  border-radius: 25px;
+  border: 2px solid;
+}
+
+@media (max-width: 992px) {
+  .bottom-cloud, .top-cloud {
+    display: none;
+  }
+  .mountain {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+/* About me */
+
+.introduction {
+  line-height: 2;
+  padding: 0 5rem 0 5rem;
+}
+
+.introduction p {
+  padding: 12px 0 12px 0;
+}
+
+.propic {
+  border-radius: 50%;
+  margin-top: 2.5%;
+  width: 10%;
+  height: 10%;
+  background-color: #16c79a;
+}
+
+@media (max-width: 992px) {
+  .introduction {
+    padding: 0 1rem 0 1rem;
+  }
+}
+
+/* Skills */
+
+#skills {
+  max-width: 68.75rem;
+  margin: auto;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+
+/* Certificates */
+
+.main-certificate{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+   }
+
+.cert, .cert2 {
+    flex: 1;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+.imagec {
+    height: 200px;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.cert2 {
+  display: none;
+}
+
+#certificate a {
+  color: #19456b;
+  text-decoration: none;
+}
+
+.cbtn {
+  padding: 12px 0 12px 0;
+}
+
+@media (max-width: 992px) {
+  .main-certificate{
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+    padding-bottom: 0;
+  }
+  .cert {
+    padding: 12px 0 12px 0;
+  }
+}
+
+/* Contact Me */
+
+.bottom-container {
+  margin: 50px auto 0 auto;
+  background-color: #e7d9ea;
+  padding: 25px 2.5% 10px 2.5%;
+  line-height: 3;
+  font-size: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #3d3d3d;
+  padding: 2% 5% 2% 5%;
+  text-align: center;
+}
