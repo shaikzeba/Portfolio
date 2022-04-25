@@ -54,7 +54,7 @@ hr {
   padding-left: 1.5rem;
 }
 
-@media (max-width: 805px) {
+@media (max-width: 990px) {
   .navbar-nav {
     background-color: #eaf6f6;
   }
@@ -87,7 +87,7 @@ hr {
   border: 2px solid;
 }
 
-@media (max-width: 805px) {
+@media (max-width: 990px) {
   .bottom-cloud, .top-cloud {
     display: none;
   }
@@ -116,7 +116,7 @@ hr {
   background-color: #16c79a;
 }
 
-@media (max-width: 805px) {
+@media (max-width: 990px) {
   .introduction {
     padding: 0 1rem 0 1rem;
   }
@@ -176,7 +176,7 @@ hr {
   padding: 0.75rem 0 0.75rem 0;
 }
 
-@media (max-width: 805px) {
+@media (max-width: 990px) {
   .main-certificate{
     display: block;
     text-align: center;
