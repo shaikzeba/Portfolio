@@ -8,7 +8,7 @@ h1{
   margin: 6.25rem auto 0 auto;
   font-size: 5.25rem;
   color: #11698e;
-  font-family: 'Sacramento', cursive
+  font-family: 'Sacramento', cursive;
 }
 h2 {
   padding-bottom: 0.75rem;
@@ -54,7 +54,7 @@ hr {
   padding-left: 1.5rem;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 805px) {
   .navbar-nav {
     background-color: #eaf6f6;
   }
@@ -87,7 +87,7 @@ hr {
   border: 2px solid;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 805px) {
   .bottom-cloud, .top-cloud {
     display: none;
   }
@@ -116,11 +116,6 @@ hr {
   background-color: #16c79a;
 }
 
-@media (max-width: 990px) {
-  .introduction {
-    padding: 0 1rem 0 1rem;
-  }
-}
 
 /* Skills */
 
@@ -163,6 +158,10 @@ hr {
     padding-bottom: 0.7rem;
 }
 
+.cert {
+  padding: 0 0.75rem 0 0.75rem 0;
+}
+
 .cert2 {
   display: none;
 }
@@ -176,15 +175,12 @@ hr {
   padding: 0.75rem 0 0.75rem 0;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 805px) {
   .main-certificate{
     display: block;
     text-align: center;
     margin-left: 0;
     padding-bottom: 0;
-  }
-  .cert {
-    padding: 0 0.75rem 0 0.75rem 0;
   }
 }
 
